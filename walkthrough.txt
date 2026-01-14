@@ -1,0 +1,15 @@
+cp-30-beginner/
+│
+├── phase1_basics/
+│   ├── p01_io.cpp
+│   ├── p02_conditions.cpp
+│   └── ...
+│
+├── phase2_thinking/
+│
+├── phase3_pain/
+│
+└── README.md
+  
+
+  
