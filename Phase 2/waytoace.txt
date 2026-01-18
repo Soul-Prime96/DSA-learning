@@ -1,0 +1,141 @@
+Now the actual Phase 2 blueprint (write this somewhere)
+Phase 2 Goal (non-negotiable)
+
+Be comfortable with Div 3 A–B and Div 4 C, sometimes touching Div 3 C without crying.
+
+Rating Range You Should Hunt
+
+900 – 1200 on Codeforces
+
+Sweet spot: 1000–1100
+
+Below 900 = too trivial
+
+Above 1200 = ego trap, avoid for now
+
+
+
+
+Phase 2 Topics & Tools (in the right order)
+1. Sorting as a weapon
+
+You already know how to sort. You don’t know why to sort.
+
+Tools:
+
+sort()
+
+Sorting pairs
+
+Sorting to make patterns visible
+
+Problems look like:
+
+“Make array beautiful”
+
+“Minimize / maximize something”
+
+“Rearrange elements”
+
+2. Frequency counting (Hashing lite)
+
+Because checking everything twice is stupid.
+
+Tools:
+
+map, unordered_map
+
+Frequency arrays
+
+Counting occurrences
+
+Used when:
+
+Repetitions matter
+
+You see words like “how many”, “frequency”, “distinct”
+
+3. Prefix sums
+
+This is where your nested loops die.
+
+Tools:
+
+Prefix sum array
+
+Range sum queries
+
+Difference of prefix sums
+
+Used when:
+
+Many subarray queries
+
+Repeated sum calculations
+
+4. Two pointers
+
+For people who are tired of O(n²).
+
+Tools:
+
+Left and right pointers
+
+Sliding window
+
+Shrinking and expanding ranges
+
+Used when:
+
+Array/string is sorted
+
+You need pairs, ranges, or windows
+
+5. Greedy thinking (basic)
+
+Not “greedy is always right”, but when it is right.
+
+Tools:
+
+Local optimal choices
+
+Sorting + taking smallest/largest first
+
+Used when:
+
+You’re asked to minimize or maximize something step by step
+
+6. Basic math observations
+
+Not formulas. Just common sense math.
+
+Tools:
+
+Modulo
+
+Parity (odd/even)
+
+GCD basics
+
+Digits
+
+Used when:
+
+Constraints are large
+
+Direct simulation looks slow
+
+
+
+
+How you should “learn” each topic (important)
+
+For each topic:
+
+Read 10–15 minutes of explanation (not a 2-hour lecture)
+
+Solve 2 easy problems
+
+Then immediately hunt 2–3 problems in the 1000–1100 range
+
+If you do theory first for everything, you fail Phase 2 without even starting it.
