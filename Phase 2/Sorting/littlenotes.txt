@@ -1,0 +1,18 @@
+Sorting not only arranges the order of array it also help in seeing the patterns to solve the question furthur.
+it creates-
+Smallest elements are grouped.
+Largest elements are grouped.
+Equal elements become adjacent.
+Two pointers becomes legal.
+Greedy decisions become visible.
+
+
+Sorting minimizes the maximum adjacent difference because each element is placed next to the closest possible values in the set, avoiding unnecessary large jumps.
+
+If the sorted array has a largest gap between two consecutive elements, then any arrangement must contain at least that much difference somewhere between the two value groups.
+
+syntax to note-
+sort(v.begin(), v.end());                          // ascending
+sort(v.begin(), v.end(), greater<int>());          // descending
+vector<pair<int,int>> v;
+sort(v.begin(), v.end());                          //sorting pairs
