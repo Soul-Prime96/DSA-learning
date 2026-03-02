@@ -22,7 +22,7 @@ int main()
     int high = accumulate(weights.begin(), weights.end(), 0);
     int ans = 0;
     while (low <= high)
-    {
+    { 
         int mid = low + (high - low) / 2;
         int daysNeeded = 1;
         int currentLoad = 0;
